@@ -9,6 +9,10 @@
     },
     "scripts": {
         "start": "php -S localhost:8000 -t src",
+        "dev": "browser-sync start --proxy localhost:8000 --files 'src/**/*' --no-notify",
         "build": "httrack http://localhost:8000 -O dist -%v -s0"
+    },
+    "devDependencies": {
+        "browser-sync": "^3.0.3"
     }
 }

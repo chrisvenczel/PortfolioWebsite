@@ -17,8 +17,8 @@
 }
 
 #mePic {
-    border-radius: 50%;
-    border: 0px solid black;
+    border-radius: 1%;
+    border: 2px solid black;
     width: 25vh;
     height: 25vh;
     min-width: 100px;
@@ -26,12 +26,12 @@
     float: right;
     display: block;
     margin: 20px;
-    background-image: url("Images/profilepic.png");
-    background-size: cover;
+    background-image: url("Images/profilepic.jpg");
+    background-size: 120%;
+    background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
-    /*filter: grayscale(100%) brightness(1.25) drop-shadow(0px 2px 1px black);
-    */
-    filter: drop-shadow(0px 2px 1px black);
+    filter: drop-shadow(-10px 10px 0px var(--lightAccent));
 }
 
 #p1 {
