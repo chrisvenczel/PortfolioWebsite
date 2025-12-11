@@ -8,6 +8,8 @@
         "node": "24.12.0"
     },
     "scripts": {
-        "start": "php -S localhost:8000"
+        "start": "php -S localhost:8000 -t src",
+        "build": "node scripts/build-static.js",
+        "build2": "wget -k -K -E -r -l 10 -p -N -F -nH -P dist --page-requisites --no-check-certificate --adjust-extension http://localhost:8000 || true"
     }
 }
