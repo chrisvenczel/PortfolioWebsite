@@ -1,0 +1,13 @@
+{
+    "name": "portfolio-website",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "description": "Interactive portfolio site served via PHP with p5.js sketches.",
+    "engines": {
+        "node": "24.12.0"
+    },
+    "scripts": {
+        "start": "php -S localhost:8000"
+    }
+}
